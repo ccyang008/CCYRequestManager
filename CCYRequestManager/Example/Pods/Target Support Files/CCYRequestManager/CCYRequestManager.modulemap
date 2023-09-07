@@ -1,0 +1,6 @@
+framework module CCYRequestManager {
+  umbrella header "CCYRequestManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

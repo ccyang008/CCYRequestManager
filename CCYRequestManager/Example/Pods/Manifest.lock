@@ -1,0 +1,16 @@
+PODS:
+  - CCYRequestManager (0.1.0)
+
+DEPENDENCIES:
+  - CCYRequestManager (from `../`)
+
+EXTERNAL SOURCES:
+  CCYRequestManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CCYRequestManager: bb338b9c3c0ce67a93ff8f1672b1eef32b783612
+
+PODFILE CHECKSUM: 8fe967c13b2264085315246fdf0ef2b40bf5d90c
+
+COCOAPODS: 1.11.3

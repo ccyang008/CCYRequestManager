@@ -1,0 +1,783 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1599B5DD7D135C2FBF7E14BE630BFEBD /* Pods-CCYRequestManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 963BEB89BBCB6D76AE51E0AF240CA6A3 /* Pods-CCYRequestManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18160D5642C38F36987F1877398AE371 /* CCYRequestManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F4DD70A55E9E0BD13B5A9376AD0E7F81 /* CCYRequestManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18583BB8B573030E012BAF273C6F99EE /* CCYRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 508C8FACAB2BEF7CBA5150C95852B2E0 /* CCYRequestManager.m */; };
+		3359C5BF6973FB9AF18298A87B11007B /* Pods-CCYRequestManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9A7A2747ED0AD178D09248D8B87662 /* Pods-CCYRequestManager_Tests-dummy.m */; };
+		3FB268499DB9798290B97895AF84B650 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */; };
+		46ED8F8AAD9919320974961D942C142F /* CCYRequestManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CF2C3E22B626A9A07CA0F750B1CA572 /* CCYRequestManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E56C7BDB1F189CEBF9BDDCE99392C9B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */; };
+		8B05670562541966CEFE95140E060129 /* Pods-CCYRequestManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F2335352326A4413851C8B42B265DDCB /* Pods-CCYRequestManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C36D314D329B60211567654024888EC0 /* Pods-CCYRequestManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A79F6FD4178F7079081DE4C227A217A /* Pods-CCYRequestManager_Example-dummy.m */; };
+		E699CDC18904FDC4CE20724C8515DBC0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */; };
+		F20283012A49D4AE5669B34AF0802734 /* CCYRequestManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD790B7550BA360DD491F2C3E75C6DD5 /* CCYRequestManager-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94C6EF5A602E52932A9AE086C467B87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BCB8691A37EA3848B9BA30B4442586D;
+			remoteInfo = CCYRequestManager;
+		};
+		968542AF9FED897AFA444AF79E432AA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73C55B602C1F203D62B9B3ACA70D7AD8;
+			remoteInfo = "Pods-CCYRequestManager_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04CDAE3ED92511558BCFEE62229080C2 /* CCYRequestManager */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CCYRequestManager; path = CCYRequestManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E28F36A843A65A0D125D77F37EC5E24 /* CCYRequestManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CCYRequestManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0ED14730B3F37F32DBAEB0117FC368E6 /* Pods-CCYRequestManager_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CCYRequestManager_Tests"; path = Pods_CCYRequestManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17C956B76BD5B9AFC894FDA3930A96BD /* Pods-CCYRequestManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CCYRequestManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1992013B564B8E16DE7A640C0982373E /* CCYRequestManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CCYRequestManager.debug.xcconfig; sourceTree = "<group>"; };
+		19D5BEF20FE8028408FD76AF33788B87 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		369568F2C73D3E9C513894D1AEA95C8C /* Pods-CCYRequestManager_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CCYRequestManager_Example"; path = Pods_CCYRequestManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4756A4C4464DADAD7902632183E7F323 /* Pods-CCYRequestManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CCYRequestManager_Example.modulemap"; sourceTree = "<group>"; };
+		4F05298B54DC720AFE36B0977FCD5ACC /* Pods-CCYRequestManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CCYRequestManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		508C8FACAB2BEF7CBA5150C95852B2E0 /* CCYRequestManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCYRequestManager.m; path = CCYRequestManager/Classes/CCYRequestManager.m; sourceTree = "<group>"; };
+		5706F7872899A38D8CC70FC5485F2541 /* CCYRequestManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CCYRequestManager-Info.plist"; sourceTree = "<group>"; };
+		6CF2C3E22B626A9A07CA0F750B1CA572 /* CCYRequestManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCYRequestManager.h; path = CCYRequestManager/Classes/CCYRequestManager.h; sourceTree = "<group>"; };
+		766AA63D4F045F674762BC72E632F7A2 /* CCYRequestManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CCYRequestManager.release.xcconfig; sourceTree = "<group>"; };
+		780923BE63589AEEC6CA788B37A98223 /* Pods-CCYRequestManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CCYRequestManager_Example-frameworks.sh"; sourceTree = "<group>"; };
+		7A5265A1B1A05D89FF3EE98981CA8AB8 /* CCYRequestManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CCYRequestManager.modulemap; sourceTree = "<group>"; };
+		8A79F6FD4178F7079081DE4C227A217A /* Pods-CCYRequestManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CCYRequestManager_Example-dummy.m"; sourceTree = "<group>"; };
+		9059DEC7788B32CE89E3A6FD41388D4E /* Pods-CCYRequestManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCYRequestManager_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9637B357B89C01ACEEA4E3F8CCBA7426 /* Pods-CCYRequestManager_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CCYRequestManager_Example-Info.plist"; sourceTree = "<group>"; };
+		963BEB89BBCB6D76AE51E0AF240CA6A3 /* Pods-CCYRequestManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CCYRequestManager_Example-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DE72C4CAF0765223DF52646248BB257 /* Pods-CCYRequestManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCYRequestManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A601FF8A60B60EEE0595445B54536BD9 /* Pods-CCYRequestManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCYRequestManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BD790B7550BA360DD491F2C3E75C6DD5 /* CCYRequestManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CCYRequestManager-dummy.m"; sourceTree = "<group>"; };
+		C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		C2A9A93FFB844407F49F156F641CBDC1 /* CCYRequestManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCYRequestManager-prefix.pch"; sourceTree = "<group>"; };
+		DF58BF652F8C1982ECD3C883A8A76C6C /* Pods-CCYRequestManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CCYRequestManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E2C969A2A7508F78920A031BAF6EF6B1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E4899E25BA4193EB936595ADF3E80071 /* Pods-CCYRequestManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCYRequestManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F2335352326A4413851C8B42B265DDCB /* Pods-CCYRequestManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CCYRequestManager_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F29B0EB797AF5E7F593C8B0FC1A76713 /* Pods-CCYRequestManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CCYRequestManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F4DD70A55E9E0BD13B5A9376AD0E7F81 /* CCYRequestManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCYRequestManager-umbrella.h"; sourceTree = "<group>"; };
+		FB8590CE79DAFC5691204DAAAA4D4C7B /* Pods-CCYRequestManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CCYRequestManager_Tests.modulemap"; sourceTree = "<group>"; };
+		FD9A7A2747ED0AD178D09248D8B87662 /* Pods-CCYRequestManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CCYRequestManager_Tests-dummy.m"; sourceTree = "<group>"; };
+		FDB03E67AE15C35E05B6DB03B610C807 /* Pods-CCYRequestManager_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CCYRequestManager_Tests-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7F964985EFA3B6E9762CAE56DAA11E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB268499DB9798290B97895AF84B650 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E07E97F3F9D950B74879A67867B5CD9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E699CDC18904FDC4CE20724C8515DBC0 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E69CDC611D44F6D6E8F563F3E03A51F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E56C7BDB1F189CEBF9BDDCE99392C9B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0040643E751D855F1852882579A17306 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				06CA12AB1FC9C68AC7457E3AB7ECD56B /* CCYRequestManager */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		06CA12AB1FC9C68AC7457E3AB7ECD56B /* CCYRequestManager */ = {
+			isa = PBXGroup;
+			children = (
+				6CF2C3E22B626A9A07CA0F750B1CA572 /* CCYRequestManager.h */,
+				508C8FACAB2BEF7CBA5150C95852B2E0 /* CCYRequestManager.m */,
+				5743856AF515855289A0B79409B84F9B /* Pod */,
+				931B391D546D3EF0CBE8AC3A56CF5522 /* Support Files */,
+			);
+			name = CCYRequestManager;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		2743B52AECD5E12653617E852758C6C1 /* Pods-CCYRequestManager_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4756A4C4464DADAD7902632183E7F323 /* Pods-CCYRequestManager_Example.modulemap */,
+				DF58BF652F8C1982ECD3C883A8A76C6C /* Pods-CCYRequestManager_Example-acknowledgements.markdown */,
+				17C956B76BD5B9AFC894FDA3930A96BD /* Pods-CCYRequestManager_Example-acknowledgements.plist */,
+				8A79F6FD4178F7079081DE4C227A217A /* Pods-CCYRequestManager_Example-dummy.m */,
+				780923BE63589AEEC6CA788B37A98223 /* Pods-CCYRequestManager_Example-frameworks.sh */,
+				9637B357B89C01ACEEA4E3F8CCBA7426 /* Pods-CCYRequestManager_Example-Info.plist */,
+				963BEB89BBCB6D76AE51E0AF240CA6A3 /* Pods-CCYRequestManager_Example-umbrella.h */,
+				E4899E25BA4193EB936595ADF3E80071 /* Pods-CCYRequestManager_Example.debug.xcconfig */,
+				9059DEC7788B32CE89E3A6FD41388D4E /* Pods-CCYRequestManager_Example.release.xcconfig */,
+			);
+			name = "Pods-CCYRequestManager_Example";
+			path = "Target Support Files/Pods-CCYRequestManager_Example";
+			sourceTree = "<group>";
+		};
+		5743856AF515855289A0B79409B84F9B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0E28F36A843A65A0D125D77F37EC5E24 /* CCYRequestManager.podspec */,
+				19D5BEF20FE8028408FD76AF33788B87 /* LICENSE */,
+				E2C969A2A7508F78920A031BAF6EF6B1 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		918457ECA28B37BDEF7D0FF081C477EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04CDAE3ED92511558BCFEE62229080C2 /* CCYRequestManager */,
+				369568F2C73D3E9C513894D1AEA95C8C /* Pods-CCYRequestManager_Example */,
+				0ED14730B3F37F32DBAEB0117FC368E6 /* Pods-CCYRequestManager_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		931B391D546D3EF0CBE8AC3A56CF5522 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A5265A1B1A05D89FF3EE98981CA8AB8 /* CCYRequestManager.modulemap */,
+				BD790B7550BA360DD491F2C3E75C6DD5 /* CCYRequestManager-dummy.m */,
+				5706F7872899A38D8CC70FC5485F2541 /* CCYRequestManager-Info.plist */,
+				C2A9A93FFB844407F49F156F641CBDC1 /* CCYRequestManager-prefix.pch */,
+				F4DD70A55E9E0BD13B5A9376AD0E7F81 /* CCYRequestManager-umbrella.h */,
+				1992013B564B8E16DE7A640C0982373E /* CCYRequestManager.debug.xcconfig */,
+				766AA63D4F045F674762BC72E632F7A2 /* CCYRequestManager.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CCYRequestManager";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				0040643E751D855F1852882579A17306 /* Development Pods */,
+				E0A1E60606E0BF6E2E10F1F01350DFE8 /* Frameworks */,
+				918457ECA28B37BDEF7D0FF081C477EF /* Products */,
+				FCE32735FE528E6D15445A89CB51D50E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E0A1E60606E0BF6E2E10F1F01350DFE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2A8756CA1FF5258A0344D53C5C60EC1 /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2A8756CA1FF5258A0344D53C5C60EC1 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		EC28BD5F69BAC19B419A196893CDC603 /* Pods-CCYRequestManager_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FB8590CE79DAFC5691204DAAAA4D4C7B /* Pods-CCYRequestManager_Tests.modulemap */,
+				F29B0EB797AF5E7F593C8B0FC1A76713 /* Pods-CCYRequestManager_Tests-acknowledgements.markdown */,
+				4F05298B54DC720AFE36B0977FCD5ACC /* Pods-CCYRequestManager_Tests-acknowledgements.plist */,
+				FD9A7A2747ED0AD178D09248D8B87662 /* Pods-CCYRequestManager_Tests-dummy.m */,
+				FDB03E67AE15C35E05B6DB03B610C807 /* Pods-CCYRequestManager_Tests-Info.plist */,
+				F2335352326A4413851C8B42B265DDCB /* Pods-CCYRequestManager_Tests-umbrella.h */,
+				A601FF8A60B60EEE0595445B54536BD9 /* Pods-CCYRequestManager_Tests.debug.xcconfig */,
+				9DE72C4CAF0765223DF52646248BB257 /* Pods-CCYRequestManager_Tests.release.xcconfig */,
+			);
+			name = "Pods-CCYRequestManager_Tests";
+			path = "Target Support Files/Pods-CCYRequestManager_Tests";
+			sourceTree = "<group>";
+		};
+		FCE32735FE528E6D15445A89CB51D50E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2743B52AECD5E12653617E852758C6C1 /* Pods-CCYRequestManager_Example */,
+				EC28BD5F69BAC19B419A196893CDC603 /* Pods-CCYRequestManager_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		05202A8236BC9AD90A98B2CA710A056F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B05670562541966CEFE95140E060129 /* Pods-CCYRequestManager_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23657395040EC8764777C725AA920E17 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1599B5DD7D135C2FBF7E14BE630BFEBD /* Pods-CCYRequestManager_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853ACEFEEF5565E1939D37B4F9FAFCEB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46ED8F8AAD9919320974961D942C142F /* CCYRequestManager.h in Headers */,
+				18160D5642C38F36987F1877398AE371 /* CCYRequestManager-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5BCB8691A37EA3848B9BA30B4442586D /* CCYRequestManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E9B467542D2D0C32E4C32D9AF605407 /* Build configuration list for PBXNativeTarget "CCYRequestManager" */;
+			buildPhases = (
+				853ACEFEEF5565E1939D37B4F9FAFCEB /* Headers */,
+				F07A235198F1CD348760A3D3DB571BE1 /* Sources */,
+				E69CDC611D44F6D6E8F563F3E03A51F7 /* Frameworks */,
+				CF00E5A66A266B9888648D5B9CC209FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCYRequestManager;
+			productName = CCYRequestManager;
+			productReference = 04CDAE3ED92511558BCFEE62229080C2 /* CCYRequestManager */;
+			productType = "com.apple.product-type.framework";
+		};
+		73C55B602C1F203D62B9B3ACA70D7AD8 /* Pods-CCYRequestManager_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29AA85136ED12C97659CBCAECE313232 /* Build configuration list for PBXNativeTarget "Pods-CCYRequestManager_Example" */;
+			buildPhases = (
+				23657395040EC8764777C725AA920E17 /* Headers */,
+				1743CAC0CA38F3F5625D24B8A3E29B49 /* Sources */,
+				E07E97F3F9D950B74879A67867B5CD9F /* Frameworks */,
+				6D58DC95B91CCD70EAAD810576E366BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3578CE8255B1B585463D4FDE82D9FD61 /* PBXTargetDependency */,
+			);
+			name = "Pods-CCYRequestManager_Example";
+			productName = Pods_CCYRequestManager_Example;
+			productReference = 369568F2C73D3E9C513894D1AEA95C8C /* Pods-CCYRequestManager_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		A35AF4C998D0D3337A4A479F25C36CA2 /* Pods-CCYRequestManager_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C713D6B6ACCA956F63DC59AB2ACBEB13 /* Build configuration list for PBXNativeTarget "Pods-CCYRequestManager_Tests" */;
+			buildPhases = (
+				05202A8236BC9AD90A98B2CA710A056F /* Headers */,
+				28E8D80C36F05055325D8DDFAB15538E /* Sources */,
+				D7F964985EFA3B6E9762CAE56DAA11E3 /* Frameworks */,
+				57FFD9240FC8CBC9181FBA6CBF452E6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED44D3EADDE08152C517C995CACB89BA /* PBXTargetDependency */,
+			);
+			name = "Pods-CCYRequestManager_Tests";
+			productName = Pods_CCYRequestManager_Tests;
+			productReference = 0ED14730B3F37F32DBAEB0117FC368E6 /* Pods-CCYRequestManager_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 918457ECA28B37BDEF7D0FF081C477EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BCB8691A37EA3848B9BA30B4442586D /* CCYRequestManager */,
+				73C55B602C1F203D62B9B3ACA70D7AD8 /* Pods-CCYRequestManager_Example */,
+				A35AF4C998D0D3337A4A479F25C36CA2 /* Pods-CCYRequestManager_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57FFD9240FC8CBC9181FBA6CBF452E6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D58DC95B91CCD70EAAD810576E366BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF00E5A66A266B9888648D5B9CC209FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1743CAC0CA38F3F5625D24B8A3E29B49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C36D314D329B60211567654024888EC0 /* Pods-CCYRequestManager_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28E8D80C36F05055325D8DDFAB15538E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3359C5BF6973FB9AF18298A87B11007B /* Pods-CCYRequestManager_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F07A235198F1CD348760A3D3DB571BE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18583BB8B573030E012BAF273C6F99EE /* CCYRequestManager.m in Sources */,
+				F20283012A49D4AE5669B34AF0802734 /* CCYRequestManager-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3578CE8255B1B585463D4FDE82D9FD61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CCYRequestManager;
+			target = 5BCB8691A37EA3848B9BA30B4442586D /* CCYRequestManager */;
+			targetProxy = 94C6EF5A602E52932A9AE086C467B87E /* PBXContainerItemProxy */;
+		};
+		ED44D3EADDE08152C517C995CACB89BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CCYRequestManager_Example";
+			target = 73C55B602C1F203D62B9B3ACA70D7AD8 /* Pods-CCYRequestManager_Example */;
+			targetProxy = 968542AF9FED897AFA444AF79E432AA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		22395CE7EC9B5D537CC0B2E56088ED39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A601FF8A60B60EEE0595445B54536BD9 /* Pods-CCYRequestManager_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CCYRequestManager_Tests/Pods-CCYRequestManager_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = "Target Support Files/Pods-CCYRequestManager_Tests/Pods-CCYRequestManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3A0653E7969CF4B38DCE112C1C4FBD45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 766AA63D4F045F674762BC72E632F7A2 /* CCYRequestManager.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CCYRequestManager/CCYRequestManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CCYRequestManager/CCYRequestManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/CCYRequestManager/CCYRequestManager.modulemap";
+				PRODUCT_MODULE_NAME = CCYRequestManager;
+				PRODUCT_NAME = CCYRequestManager;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4D8F56AF613BAFFF06F9701AE0589920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4899E25BA4193EB936595ADF3E80071 /* Pods-CCYRequestManager_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CCYRequestManager_Example/Pods-CCYRequestManager_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = "Target Support Files/Pods-CCYRequestManager_Example/Pods-CCYRequestManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7119987CF6C80F8929C71248AC3889CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DE72C4CAF0765223DF52646248BB257 /* Pods-CCYRequestManager_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CCYRequestManager_Tests/Pods-CCYRequestManager_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = "Target Support Files/Pods-CCYRequestManager_Tests/Pods-CCYRequestManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7599BD86FD28576C20F8B9B6B5ACBEC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		75A8FCBA5E1780DD09C852BB946568EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9059DEC7788B32CE89E3A6FD41388D4E /* Pods-CCYRequestManager_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CCYRequestManager_Example/Pods-CCYRequestManager_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = "Target Support Files/Pods-CCYRequestManager_Example/Pods-CCYRequestManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C0AB89DB0533D8E2B9201FA6579824B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CA2C929BD46CA7F8BD8B78033507E89B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1992013B564B8E16DE7A640C0982373E /* CCYRequestManager.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CCYRequestManager/CCYRequestManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CCYRequestManager/CCYRequestManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/CCYRequestManager/CCYRequestManager.modulemap";
+				PRODUCT_MODULE_NAME = CCYRequestManager;
+				PRODUCT_NAME = CCYRequestManager;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29AA85136ED12C97659CBCAECE313232 /* Build configuration list for PBXNativeTarget "Pods-CCYRequestManager_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D8F56AF613BAFFF06F9701AE0589920 /* Debug */,
+				75A8FCBA5E1780DD09C852BB946568EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7599BD86FD28576C20F8B9B6B5ACBEC9 /* Debug */,
+				C0AB89DB0533D8E2B9201FA6579824B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E9B467542D2D0C32E4C32D9AF605407 /* Build configuration list for PBXNativeTarget "CCYRequestManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA2C929BD46CA7F8BD8B78033507E89B /* Debug */,
+				3A0653E7969CF4B38DCE112C1C4FBD45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C713D6B6ACCA956F63DC59AB2ACBEB13 /* Build configuration list for PBXNativeTarget "Pods-CCYRequestManager_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22395CE7EC9B5D537CC0B2E56088ED39 /* Debug */,
+				7119987CF6C80F8929C71248AC3889CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

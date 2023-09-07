@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CCYRequestManager_Example' do
+  pod 'CCYRequestManager', :path => '../'
+
+  target 'CCYRequestManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
